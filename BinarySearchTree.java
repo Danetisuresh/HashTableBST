@@ -19,6 +19,12 @@ public class BinarySearchTree {
 	        myTree.add(63);
 	        myTree.add(67);
 	        myTree.print(myTree.root);
+	        boolean flag = myTree.search(63);
+	        if (flag == true)
+	            System.out.println("\n63 is present");
+	        else
+	            System.out.println("\n63 is not present");
+
 	    }
 
 }

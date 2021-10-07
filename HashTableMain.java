@@ -21,6 +21,7 @@ public class HashTableMain {
 				count = count + 1;
 			hashTable.add(word, count);
 		}
+        hashTable.remove("avoidable");
 		System.out.println(hashTable);
 	}
 }
